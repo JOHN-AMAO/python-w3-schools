@@ -7,3 +7,11 @@ f.write("now this is time for somethig more interesting")
 f.close()
 g = open("demo.txt", "rt")
 print(g.read())
+
+
+"""
+to create a new file use the parameter "x
+eg
+new = open("new.text", "x)
+"""
+new = open("new.txt", "x")
